@@ -193,6 +193,19 @@ button {
     color: var(--colorbgCards);
 }
 
+/* Btn floating */
+
+.btn-floating {
+    position: fixed;
+    left: 85%;
+    top: 80%;
+    border-radius: 50%;
+    padding: 1em 1.25em;
+    background: var(--colorbtn2);
+    color: var(--colorbgCards);
+}
+
+
 /* footer */
 
 footer {
