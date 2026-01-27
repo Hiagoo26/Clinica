@@ -78,7 +78,7 @@ main {
 
 /* Sections */
 
-.section-today, .section-tomorrow {
+.section-today, .section-tomorrow, .section-wednesday {
     display: flex;
     flex-flow: column nowrap;
 }
