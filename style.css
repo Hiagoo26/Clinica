@@ -78,12 +78,12 @@ main {
 
 /* Sections */
 
-.section-today {
+.section-today, .section-tomorrow {
     display: flex;
     flex-flow: column nowrap;
 }
 
-.day-tittle {
+.day-title {
     color: var(--colortext1);
 }
 
