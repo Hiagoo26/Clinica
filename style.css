@@ -72,6 +72,10 @@ header {
     color: var(--colortext2);
 }
 
+main {
+    grid-area: main;
+}
+
 /* Sections */
 
 .section-today {
@@ -93,6 +97,7 @@ header {
 }
 
 .card {
+    border-radius: 10px;
     padding: 1.5rem;
     background: var(--colorbgCards);
 }
@@ -186,4 +191,37 @@ button {
     flex-grow: 1;
     background-color: var(--colorbtn2);
     color: var(--colorbgCards);
+}
+
+/* footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    background: var(--colorbgCards);
+}
+
+.footer-nav {
+    padding: 1rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.footer-links {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: var(--colortext2);
 }
